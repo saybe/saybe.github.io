@@ -198,7 +198,10 @@
                         li {
                             padding: 10px 40px;
                             margin-right: 0px;
-                            
+                            border-bottom: 0.5px solid $main_grey;
+                            &:last-child {
+                                border-bottom: none;
+                            }
                         }
                     }
                     .show-from_left {

@@ -1264,6 +1264,10 @@ a {
   .header-top_wrapper .header_nav .top_nav li {
     padding: 10px 40px;
     margin-right: 0px;
+    border-bottom: 0.5px solid #555555;
+  }
+  .header-top_wrapper .header_nav .top_nav li:last-child {
+    border-bottom: none;
   }
   .header-top_wrapper .header_nav .show-from_left {
     left: 0;
