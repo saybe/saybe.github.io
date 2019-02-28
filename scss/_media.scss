@@ -29,9 +29,6 @@
 @media (max-width: 991.98px) {
     .header {
         &-top_wrapper {
-            .header_logo {
-                
-            }
             .header_nav {
                     .top_nav {
                         font-size: 0.55em;
@@ -207,10 +204,7 @@
                     .show-from_left {
                         left: 0;
                         animation: bounceInLeft 1.5s;
-                    }
-                    .hide-to_left {
-                
-                    }   
+                    } 
             }
             .header_icons {
                 a {
@@ -233,11 +227,11 @@
             }
         }
     
-        &_slider {
-            p {
-                
-            }
-        }
+        //&_slider {
+        //    p {
+        //       
+        //    }
+        //}
     }
 
     .projects {
